@@ -7,7 +7,7 @@
 
 <p>📌 Beautiful UI-UX</p>
 <p>📌 Makes use of React Native Expo</p>
-<p>📌 Integrates OpenWeather API </p>
+<p>📌 Integrates <a href="https://openweathermap.org/" target="blank">OpenWeather API</a> </p>
 <p>📌 Weather forecast based on user geolocation </p>
 <p>📌 Get current weather report and detailed observations.</p>
 <p>📌 Get hourly weather report for the next 12 hours.</p>
