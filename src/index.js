@@ -1,7 +1,7 @@
 import { Alert, SafeAreaView, ActivityIndicator, ScrollView, RefreshControl, ImageBackground } from 'react-native'
 import React, {useEffect, useState} from 'react'
 import * as Location from 'expo-location'
-import {WEATHER_KEY} from '@env'
+import config from "../config";
 import styled from 'styled-components/native'
 import Daily from './Daily'
 import bgImg from "../assets/bg.png";
@@ -12,7 +12,7 @@ import Hourly from './Hourly'
 const Weather = () => {
     const [weatherData, setWeatherData] = useState(null);
     const [refresh, setRefresh] = useState(false);
-
+ 
     console.log(weatherData)
     const forecast = async () => {
         setRefresh(true);
@@ -23,7 +23,7 @@ const Weather = () => {
         }
 
         let location = await Location.getCurrentPositionAsync({enableHighAccuracy: true});
-        const response = await fetch(`https://api.openweathermap.org/data/3.0/onecall?lat=${location.coords.latitude}&lon=${location.coords.longitude}&units=metric&appid=${WEATHER_KEY}`)
+        const response = await fetch(`https://api.openweathermap.org/data/3.0/onecall?lat=${location.coords.latitude}&lon=${location.coords.longitude}&units=metric&appid=${config.WEATHER_KEY}`)
         const data = await response.json();
         
         if (!response.ok) {
