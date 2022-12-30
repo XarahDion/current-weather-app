@@ -12,7 +12,7 @@ const Hourly = ({hour}) => {
             <Feels>Feels like {Math.round(hour.feels_like)}</Feels>
             <Div>
                 <Feather name='cloud-snow' size={15} color="#484848" />
-                <Pop>{hour.pop*100} %</Pop>
+                <Pop>{Math.round(hour.pop)*100} %</Pop>
             </Div>
         </Container>
     )
