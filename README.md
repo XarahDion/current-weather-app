@@ -6,11 +6,11 @@
 </p>
 
 <p>📌 Makes use of <a href="https://reactnative.dev/">React Native</a> and <a href="https://expo.dev/">Expo</a></p>
-<p>📌 Integrates <a href="https://openweathermap.org/" >OpenWeather API</a> </p>
+<p>📌 Integrates data retrieved from <a href="https://openweathermap.org/" >OpenWeather API</a> </p>
 <p>📌 Weather forecast based on user geolocation </p>
-<p>📌 Get current weather report and detailed observations.</p>
-<p>📌 Get hourly weather report for the next 12 hours.</p>
-<p>📌 Get daily weather report for the next 7 days.</p>
+<p>📌 Current weather report and detailed observations.</p>
+<p>📌 Hourly weather report for the next 12 hours.</p>
+<p>📌 Daily weather report for the next 7 days.</p>
 <p>📌 UI/UX features based on <a href="https://www.meteomedia.com/ca">MétéoMedia</a>'s weather app</p>
 <p>📌 Click on the image below to view live app on <a href="https://snack.expo.dev/">Snack</a> with the Appetize viewer. </p>
 
