@@ -29,13 +29,13 @@ const Daily = ({ day }) => {
 const ContainerTemp = styled.View `
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 75px;
+    justify-content: space-around;
+    width: 70px;
 `
 const Container = styled.View `
     display: flex;
     align-items: baseline;
-    width: 80px;
+    width: 60px;
 `
 const Div = styled.View`
     display: flex;
@@ -66,7 +66,7 @@ const Day = styled.Text`
     font-size: 16px;
 `
 const Date = styled.Text`
-    font-size: 11px;
+    font-size: 12px;
     opacity: 0.4;
 `
 const Icon = styled.View`
@@ -84,7 +84,8 @@ const MaxTemp = styled.Text`
     font-size: 20px;
     font-weight: 600;
     width: 44px;
-    text-align: end;
+    text-align: right;
+    margin-right: 7px;
 `
 
 export default Daily;
