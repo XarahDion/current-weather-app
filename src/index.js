@@ -43,7 +43,9 @@ const Weather = () => {
         {weatherData ? 
         <SafeAreaView>
             <ImageBackground source={bgImg} style={{ width: "100%", height: "100%" }}>
-                <ScrollView>
+                <ScrollView refreshControl={
+                            <RefreshControl refreshing={refresh} onRefresh={() => forecast()}/>
+                    }>
                 <Title>Current Weather</Title>
                 <Place>Latitude: {weatherData.lat} | Longitude: {weatherData.lon} </Place>
                 <Forecast>
