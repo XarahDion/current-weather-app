@@ -5,7 +5,6 @@
   </a>
 </p>
 
-<p>📌 Beautiful UI-UX</p>
 <p>📌 Makes use of <a href="https://reactnative.dev/">React Native</a> and <a href="https://expo.dev/">Expo</a></p>
 <p>📌 Integrates <a href="https://openweathermap.org/" >OpenWeather API</a> </p>
 <p>📌 Weather forecast based on user geolocation </p>
