@@ -1,9 +1,4 @@
 <h1 align="center">🌅 Welcome to Current Weather 🌅</h1>
-<p>
-  <a href="https://twitter.com/XarahDion" target="_blank">
-    <img alt="Twitter: XarahDion" src="https://img.shields.io/twitter/follow/XarahDion.svg?style=social" />
-  </a>
-</p>
 
 <p>📌 Makes use of <a href="https://reactnative.dev/">React Native</a> and <a href="https://expo.dev/">Expo.</a></p>
 <p>📌 Integrates data retrieved from <a href="https://openweathermap.org/" >OpenWeather API.</a> </p>
